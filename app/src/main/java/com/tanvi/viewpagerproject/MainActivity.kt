@@ -23,6 +23,7 @@ import androidx.viewpager2.widget.ViewPager2
                 iv5 = findViewById(R.id.iv5)
                 iv6 = findViewById(R.id.iv6)
                 viewPager2 = findViewById(R.id.view_pager2)
+
                 val images = listOf(R.drawable.iv11, R.drawable.iv13, R.drawable.iv14,R.drawable.iv17,R.drawable.iv10,R.drawable.iv15)
                 val adapterClass = AdapterClass(images)
                 viewPager2.adapter = adapterClass
